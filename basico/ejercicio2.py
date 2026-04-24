@@ -1,4 +1,11 @@
-#Supongamos que el I.P.C. de los meses de Febrero y Marzo fueron 0.3% y 0.6% respectivamente.
-#  Crear un algoritmo en diagrama
-#de flujo que muestre el valor de un producto actualizado y la diferencia de precio 
-# #entre el mes de febrero y Marzo.
+#B. Desarrolle un programa que permita ingresar un número, 
+# si es negativo debemos enviar un mensaje al usuario “Número inválido, 
+# reingrese” y debe volver a ingresar otro número, si es positivo enviamos un mensaje 
+# “Número correcto” y termina el programa.
+
+n = -1
+n = int(input ( "Ingresa un numero: "))
+if n < 0 :
+     n = int(input("Numero invalido reingrese"))
+else :
+     print("Numero correcto")     
